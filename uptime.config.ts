@@ -123,7 +123,7 @@ const workerConfig = {
   notification: {
     // [Optional] apprise API server URL
     // if not specified, no notification will be sent
-    appriseApiServer: "https://apprise.example.com/notify",
+    appriseApiServer: "https://ntfy.sh/rowink_nfty",
     // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
     // if not specified, no notification will be sent
     recipientUrl: "tgram://bottoken/ChatID",

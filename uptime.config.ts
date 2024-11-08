@@ -45,6 +45,7 @@ const workerConfig = {
       id: 'pic',
       name: '图床',
       method: 'GET',
+      expectedCodes: [401],
       target: 'https://pic.exi.software/',
       tooltip: 'some pictrue for page background.'
     },

@@ -15,10 +15,108 @@ const workerConfig = {
   monitors: [
     {
       id: 'ink',
-      name: 'exi.ink',
+      name: '博客',
       method: 'GET',
       target: 'https://exi.ink',
       tooltip: 'where there is code, there is fun.'
+    },
+    {
+      id: 'm',
+      name: '笔记',
+      method: 'GET',
+      target: 'https://m.exi.ink',
+      tooltip: 'magic book.'
+    },
+    {
+      id: 'e',
+      name: '想法',
+      method: 'GET',
+      target: 'https://e.exi.ink',
+      tooltip: 'a blog about views.'
+    },
+    {
+      id: 'software',
+      name: '魔法实验室',
+      method: 'GET',
+      target: 'https://exi.software',
+      tooltip: 'magic lab.'
+    },
+    {
+      id: 'pic',
+      name: '图床',
+      method: 'GET',
+      target: 'https://pic.exi.software/',
+      tooltip: 'some pictrue for page background.'
+    },
+    {
+      id: 'short',
+      name: '短链',
+      method: 'GET',
+      target: 'https://short.exi.software/',
+      tooltip: 'short link or word.'
+    },
+    {
+      id: 'note',
+      name: '云记事本',
+      method: 'GET',
+      target: 'https://note.exi.software',
+      tooltip: 'short link or word.'
+    },
+    {
+      id: 'kode_snaps',
+      name: 'Kodesnaps',
+      method: 'GET',
+      target: 'https://code.exi.software/new',
+      tooltip: 'share your code snippet.'
+    },
+    {
+      id: 'txt_able',
+      name: 'Txtable',
+      method: 'GET',
+      target: 'https://table.exi.software/',
+      tooltip: 'set table only by text.'
+    },
+    {
+      id: 'qrcode',
+      name: 'QRcode',
+      method: 'GET',
+      target: 'https://qrcode.exi.software/',
+      tooltip: 'a simple qrcode tool.'
+    },
+    {
+      id: 'u-text',
+      name: 'UText',
+      method: 'GET',
+      target: 'https://txt.exi.software/',
+      tooltip: 'character deduplication tool.'
+    },
+    {
+      id: 'devkit',
+      name: 'Devkit',
+      method: 'GET',
+      target: 'https://devkit.exi.software/',
+      tooltip: 'some development tool collection.'
+    },
+    {
+      id: 'designkit',
+      name: 'Designkit',
+      method: 'GET',
+      target: 'https://designkit.exi.software/',
+      tooltip: 'some design tool collection.'
+    },
+    {
+      id: 'creatorkit',
+      name: 'Creatorkit',
+      method: 'GET',
+      target: 'https://creatorkit.exi.software/',
+      tooltip: 'some creator tool collection.'
+    },
+    {
+      id: 'pintree',
+      name: 'Pintree',
+      method: 'GET',
+      target: 'https://mark.exi.software/',
+      tooltip: 'online bookmark.'
     },
   ],
   notification: {

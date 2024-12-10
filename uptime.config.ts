@@ -74,7 +74,7 @@ const workerConfig = {
       id: 'txt_able',
       name: 'Txtable',
       method: 'GET',
-      target: 'https://table.exi.software/',
+      target: 'https://txtable.exi.software/',
       tooltip: 'set table only by text.'
     },
     {

@@ -2,7 +2,7 @@ const pageConfig = {
   title: "Exisi's Status Page",
   links: [
     { link: 'https://github.com/Exisi', label: 'GitHub' },
-    { link: 'https://exi.ink/', label: 'Blog' },
+    { link: 'https://exi.si/', label: 'Blog' },
     { link: 'mailto:exi.simat@gmail.com', label: 'Email Me', highlight: true },
   ],
 }
@@ -14,10 +14,10 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     {
-      id: 'ink',
+      id: 'Blog',
       name: '博客',
       method: 'GET',
-      target: 'https://exi.ink',
+      target: 'https://exi.si',
       tooltip: 'where there is code, there is fun.'
     },
     {
@@ -28,10 +28,10 @@ const workerConfig = {
       tooltip: 'magic book.'
     },
     {
-      id: 'e',
+      id: 'ego',
       name: '想法',
       method: 'GET',
-      target: 'https://e.exi.ink',
+      target: 'https://ego.exi.si',
       tooltip: 'a blog about views.'
     },
     {

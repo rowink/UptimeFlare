@@ -21,13 +21,6 @@ const workerConfig = {
       tooltip: 'where there is code, there is fun.'
     },
     {
-      id: 'm',
-      name: '笔记',
-      method: 'GET',
-      target: 'https://m.exi.ink',
-      tooltip: 'magic book.'
-    },
-    {
       id: 'ego',
       name: '想法',
       method: 'GET',
